@@ -1,0 +1,80 @@
+html {
+      scroll-behavior: smooth;
+    }
+
+    /* Custom animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-out;
+    }
+
+    .hover-scale {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-scale:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.typing {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 30px;
+    color: rgba(60, 0, 255, 0.897);
+    animation: typing 3s steps(20, end), colorChange 3s ease-in-out infinite;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background-color: rgb(204, 240, 0);
+    animation: blink 0.7s infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes colorChange {
+
+    0%,
+    100% {
+        color: rgba(60, 0, 255, 0.897);
+    }
+
+    50% {
+        color: rgba(255, 5, 5, 0.897);
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: rgb(0, 0, 0);
+    }
+}
