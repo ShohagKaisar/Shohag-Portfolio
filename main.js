@@ -34,7 +34,7 @@ hamburgerButton.addEventListener("click", () => {
 
 //main.js
 
-let a = ["Frontend Web Developer", "Web Designeer", "React Developer"];
+let a = ["Full-Stack Developer (MERN)", "Wordpress Developer", "Frontend Web Developer"];
 let ref = document.getElementById("text");
 let ind = 0, cInd = 0;
 let remove = false;
