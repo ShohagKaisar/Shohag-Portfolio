@@ -41,7 +41,7 @@ form.addEventListener("submit", function (e) {
   const text = `Hello 👋%0A%0AName: ${name.value}%0AEmail: ${email.value}%0AMobile: ${fullNumber}%0AMessage: ${message.value}`;
   
   // WhatsApp URL
-  const whatsappURL = `https://wa.me/01677056327?text=${text}`;
+  const whatsappURL = `https://wa.me/8801677056327?text=${text}`;
   window.open(whatsappURL, "_blank");
 
   // Success message
