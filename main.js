@@ -31,13 +31,13 @@ hamburgerButton.addEventListener("click", () => {
   }
 });
 
-
-//main.js
+// Animate Text
 
 let a = ["Full-Stack Developer (MERN)", "Wordpress Developer", "Frontend Web Developer"];
 let ref = document.getElementById("text");
 let ind = 0, cInd = 0;
 let remove = false;
+
 
 function typing() {
   if (ind < a.length) {
