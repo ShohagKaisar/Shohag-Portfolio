@@ -33,7 +33,7 @@ hamburgerButton.addEventListener("click", () => {
 
 // Animate Text
 
-let a = ["Full-Stack Developer (MERN)", "Wordpress Developer", "Frontend Web Developer"];
+let a = ["Full-Stack Developer", "Wordpress Developer", "Frontend Web Developer"];
 let ref = document.getElementById("text");
 let ind = 0, cInd = 0;
 let remove = false;
